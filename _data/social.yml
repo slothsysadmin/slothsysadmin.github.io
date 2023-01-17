@@ -1,0 +1,15 @@
+- name: instagram
+  icon: ion-social-instagram
+  link: #
+- name: github
+  icon: ion-social-github
+  link: #
+- name: twitter
+  icon: ion-social-twitter
+  link: #
+- name: linkedin
+  icon: ion-social-linkedin
+  link: #
+- name: mail
+  icon: ion-android-mail
+  link: #

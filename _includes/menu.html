@@ -1,0 +1,10 @@
+<header class="text-end" id="author">
+  <img class="rounded-circle" src="/assets/img/sloth.jpg">
+  <h3>slothSysAdmin</h3>
+  <p class="font-light">Sistemas, Ciberseguridad y demás historias de TI</p>
+</header>
+<ul class="list-unstyled fw-bold text-end">
+  {% for item in site.data.navigation %}
+  <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+  {% endfor %}
+</ul>

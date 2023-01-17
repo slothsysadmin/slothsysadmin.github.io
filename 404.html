@@ -1,0 +1,19 @@
+---
+layout: page
+permalink: /404.html
+title: ¿No está lo que buscas?
+---
+
+<p>Lo siento, ahora mismo estoy muy ocupado como para buscar la página a la que quieres acceder.</p>
+<div class="text-center">
+  <img class="img-fluid" src="/assets/img/slothcoffee.png" alt="sloth with a cup of coffee">
+</div>
+<p>Tómate la vida con calma! Prepara tu bebida favorita, relajate y prueba de consultar alguno de estos <a href="/">posts interesantes</a>:</p>
+
+<div>
+  <ul>
+    {% for post in site.posts limit:5 %}
+    <li><a class="fw-bold" href="{{ post.url }}">{{ post.title }}</a> | <span class="font-light"><i class="icon ion-calendar"></i> {{ post.date | date: '%d %b, %Y' }}</span></li>
+    {% endfor %}
+  </ul>
+</div>

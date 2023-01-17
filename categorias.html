@@ -1,0 +1,12 @@
+---
+layout: page
+title: Categorias
+---
+<ul class="list-unstyled">
+  {% for categoria in site.categorias %}
+    <li>
+      <h2>{{ categoria.name }}</h2>
+      <p>{{ categoria.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>

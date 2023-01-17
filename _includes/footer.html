@@ -1,0 +1,13 @@
+<footer class="footer-basic">
+  <div class="social">
+    {% for item in site.data.social %}
+    <a href="{{ item.link }}" title="{{ item.name }}"><i class="icon {{ item.icon }}" title="{{ item.name }}"></i></a>
+    {% endfor %}
+  </div>
+  <ul class="list-inline">
+    {% for item in site.data.footer %}
+    <li class="list-inline-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
+    {% endfor %}
+  </ul>
+  <p class="copyright">slothSysAdmin © {{ "now" | date: "%Y" }}</p>
+</footer>

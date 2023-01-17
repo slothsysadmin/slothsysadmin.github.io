@@ -1,0 +1,9 @@
+excerpt_separator: <!--more-->
+
+collections:
+  categorias:
+
+#plugins:
+#  - jekyll-feed
+#  - jekyll-sitemap
+#  - jekyll-seo-tag

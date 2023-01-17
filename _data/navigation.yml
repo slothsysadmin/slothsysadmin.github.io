@@ -1,0 +1,8 @@
+- name: Blog
+  link: /
+- name: Acerca de
+  link: /about.html
+- name: Categorias
+  link: /categorias.html
+- name: Contacto
+  link: /contacto.html
